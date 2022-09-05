@@ -64,9 +64,6 @@ java.targetCompatibility = JavaVersion.VERSION_1_8
 
 shadowJar {
     minimize()
-    relocate 'io.github.retrooper.packetevents', 'ac.grim.grimac.shaded.io.github.retrooper.packetevents'
-    relocate 'com.github.retrooper.packetevents', 'ac.grim.grimac.shaded.com.github.retrooper.packetevents'
-    relocate 'co.aikar.acf', 'ac.grim.grimac.shaded.acf'
     archiveFileName = "${project.name}-${project.version}.jar"
 }
 
