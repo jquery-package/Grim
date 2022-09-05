@@ -4,7 +4,7 @@ import org.bukkit.entity.Player;
 
 public class MultiLib {
  
-    public boolean isExternalPlayer(Player player) {
+    public static boolean isExternalPlayer(Player player) {
          return false; 
     }
   
