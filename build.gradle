@@ -64,6 +64,7 @@ java.targetCompatibility = JavaVersion.VERSION_1_8
 
 shadowJar {
     minimize()
+    relocate 'net.kyori', 'ac.grim.grimac.shaded.kyori'
     archiveFileName = "${project.name}-${project.version}.jar"
 }
 
